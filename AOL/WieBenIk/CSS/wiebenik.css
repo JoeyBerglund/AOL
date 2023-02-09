@@ -1,0 +1,155 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: #FFCA8B;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 240px;
+    background-color: #FF8A00;
+    text-align: center;
+    position: sticky;
+    font-size: 40px;
+    
+}
+.navbarItems{
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbarItems:nth-child(1) {
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.navbarItems:nth-child(2) {
+    background-color: #FFA132;
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.navbarItems:nth-child(3) {
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbarItems:nth-child(1):hover {
+    background-color: #FFA132;
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarItems:nth-child(2):hover {
+    background-color: #FFA132;
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+}
+.navbarItems:nth-child(3):hover {
+    background-color: #FFA132;
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    bottom: 0px;
+    position: fixed;
+}
+
+.mijnInfo {
+    background-color: #FFDDB6;
+    margin: 2%;
+    margin-top: 3%;
+    text-align: center;
+    border-radius: 75px;
+    padding: 2%;
+    width: 560px;
+    text-align: left;
+    
+}
+.socialeMedia {
+    background-color: #FFDDB6;
+    margin: 2%;
+    margin-top: 3%;
+    text-align: center;
+    border-radius: 75px;
+    padding: 2%;
+    width: 560px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+.WieBenIkHeaders{
+    font-size: 48px;
+    text-align: left;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.smHeader {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-decoration: none;
+    color: black;
+}
+
+.smHeader:hover {
+    text-decoration: none;
+    color: #cc7000;
+}
+
+#githublogo {
+    height: 48px;
+    width: 48px;
+    margin-right: 1%;
+}
+#instagramlogo {
+    height: 48px;
+    width: 48px;
+    margin-right: 1%;
+}
+#twitterlogo {
+    height: 48px;
+    width: 48px;
+    margin-right: 1%;
+}
+
+
+
+

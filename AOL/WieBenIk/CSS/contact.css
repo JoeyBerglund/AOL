@@ -1,0 +1,178 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: #FFCA8B;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 240px;
+    background-color: #FF8A00;
+    text-align: center;
+    position: sticky;
+    font-size: 40px;
+    
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+a:nth-child(1) {
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+a:nth-child(2) {
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+a:nth-child(3) {
+    background-color: #FFA132;
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+a:nth-child(1):hover {
+    background-color: #FFA132;
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:nth-child(2):hover {
+    background-color: #FFA132;
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+}
+a:nth-child(3):hover {
+    background-color: #FFA132;
+    color: black;
+    height: 240px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    bottom: 0px;
+    position: fixed;
+}
+
+@media only screen and (min-width: 1920px) {
+    .personalInfoBox{
+        display: flex;
+        height: 125px;
+        width: 520px;
+        margin: 2%;
+        margin-left: 5%;
+        color: black;
+        background-color: #FFDDB6;
+        font-size: 24px;
+        padding-left: 2%;
+    }
+
+    .personalInfoBox{
+        display: flex;
+        height: 125px;
+        width: 520px;
+        margin: 2%;
+        margin-left: 5%;
+        color: black;
+        background-color: #FFDDB6;
+        font-size: 24px;
+        padding-left: 2%;
+    }
+    
+    .personalInfo {
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+    
+    .messageBox{
+        display: flex;
+        height: 396px;
+        width: 1100px;
+        margin-top: 0.95%;
+        padding-left: 1%;
+        color: black;
+        background-color: #FFDDB6;
+        font-size: 24px;
+    }
+    
+    #textBoxes {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5.5%;
+        margin-left: 6%;
+    }
+    
+    .verzenden {
+        display: flex;
+        justify-content: center;
+        margin-left: 7.4%;
+        margin-right: 6%;
+        margin-bottom: 3%;
+        height: 175px;
+        width: 1649px;
+        font-size: 24px;
+        background-color: #FFDDB6;
+    }
+    
+}
+
+@media only screen and (max-width: 1919px) {
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    input{
+        display: flex;
+        margin-top: 3%;
+        width: 500px;
+        height: 90px;
+        color: black;
+        background-color: #FFDDB6;
+        font-size: 16px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .messageBox {
+        height: 200px;
+    }
+}
+
+
